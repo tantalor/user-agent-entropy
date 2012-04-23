@@ -1,0 +1,13 @@
+{
+  "name": "User Agent Entropy",
+  "version": "0.1",
+  "description": "Adds entropy to your User Agent headers",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
