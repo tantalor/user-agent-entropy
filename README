@@ -1,3 +1,17 @@
 User Agent Entropy
 
 A Chrome Extension that adds entropy to your User Agent headers.
+
+To install,
+
+ 1. Clone this repo
+ 2. Open chrome://chrome/extensions/
+ 3. Select "Load unpacked extension..."
+ 4. Select the directory you created in Step 1
+
+To test,
+
+ 1. Go to http://panopticlick.eff.org/index.php
+ 2. Select "Test Me"
+ 3. Reload a few times
+ 4. Observe that your User Agent changes on each request
